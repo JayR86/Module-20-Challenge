@@ -1,0 +1,30 @@
+.proficiencies-list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.resume{
+    padding-top: 8em;
+}
+.resume_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.resume_link:hover {
+  background-color:  #005da6; 
+}
+.proficiencies-list-item {
+  margin: 0.5em;
+}

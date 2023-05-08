@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 8em;
+  max-width: 100%;
+  justify-content: space-between;
+  background-image: url('../Access/background.jpg'); 
+  
+}
+
+
+h2{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: transparent;
+}
+@media (max-width: 600px) {
+  .header {
+    height: 6em;
+  }
+}
